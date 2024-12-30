@@ -1,0 +1,64 @@
+site_name: pymbaza
+repo_url: https://github.com/MBAZA-NLP/pymbaza
+
+site_description: >-
+  pymbaza is a python package that provides a simple interface to a collection of NLP tools from the MBAZA NLP community
+repo_name: agent87/agent87.github.io
+copyright: Copyright &copy; 2024 MBAZA NLP Community.
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/git-alt
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.path
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs.sticky
+    - content.tooltips
+    - toc.auto
+    - toc.follow
+    - toc.onscroll
+    - toc.progress
+
+  font:
+    text: Arial
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+
+extra:
+  generator: false
+
+
+plugins:
+  - offline
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.details
+  - pymdownx.superfences

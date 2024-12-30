@@ -1,0 +1,7 @@
+[project]
+name = "pymbaza"
+version = "0.1.0"
+description = "A collection of NLP tools for the MBAZA-NLP project"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
